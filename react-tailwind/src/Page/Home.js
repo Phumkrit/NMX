@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../IMG/arf.png";
+import art from "../IMG/arf.png";
 
 const people = [
   {
@@ -21,8 +21,7 @@ const people = [
   {
     name: "AfterTheRain",
     role: "Homosapien",
-    imageUrl:
-      "https://scontent.fbkk6-2.fna.fbcdn.net/v/t1.6435-9/197402290_1257691261312560_155569732166813326_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGZx6wqlQ2BNHXr_nA00R8xHHN5Hvr4hCocc3ke-viEKmAP5bzrp-gQdHV05_4w-DV9nskhnahOenvOAtUrwEMJ&_nc_ohc=dKHggNBCLBsAX_QjYHg&_nc_ht=scontent.fbkk6-2.fna&oh=00_AfBRiAuJGEFhi7yj0bpGaJBlrAFPhfuVa2fFUvtUfwUhNQ&oe=63DCA0FD",
+    imageUrl: "",
     twitterUrl: "#",
     linkedinUrl: "#",
   },
@@ -37,8 +36,7 @@ const people = [
   {
     name: "BIG APE",
     role: "Homosapien",
-    imageUrl:
-      "https://scontent.fbkk6-1.fna.fbcdn.net/v/t39.30808-6/320947794_471646368466247_7970674750603469919_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFlgKgx9UK-NRCKR_9E2GoGp2T_iceIKy6nZP-Jx4grLnbPxVq3TLuZVGO-GmbstkGvcNj3RGHz6SEeBcD5mfmx&_nc_ohc=Fmn_Ed-fmNYAX-i-Z5T&_nc_ht=scontent.fbkk6-1.fna&oh=00_AfDxgvgBCTKYgz8yT67brS6uazGMLayjt24dNgygolIJzA&oe=63BA366D",
+    imageUrl: "https://imgur.com/B3yFe5o",
     twitterUrl: "#",
     linkedinUrl: "#",
   },
@@ -107,7 +105,7 @@ const Home = () => {
     <div className="bg-white">
       <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12">
-          <div className="spance-y-5 sm:space-y-4 md:max-w-3xl xl:max-w-none">
+          <div className="spance-y-5 sm:space-y-4 md:max-w-3xl xl:max-w-none text-center">
             <h2 className="text-3xl font-bold tracking-tighr sm:text-4xl">
               Those are our people
             </h2>

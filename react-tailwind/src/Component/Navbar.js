@@ -9,7 +9,7 @@ const Navbar = () => {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="/">
-              <h2 className="text-2xl font-bold hover:-translate-y-1 transition ease-in-out delay-150 hover:scale-110 ">
+              <h2 className="text-2xl font-bold hover:-translate-y-1 transition ease-in-out delay-150 hover:scale-110">
                 NMX
               </h2>
             </a>
@@ -62,7 +62,7 @@ const Navbar = () => {
                 <a href="/About">About US</a>
               </li>
               <li className=" hover:text-blue-600 hover:underline hover:-translate-y-1 transition ease-in-out delay-150 hover:scale-110 ">
-                <a href="javascript:void(0)">Blog</a>
+                <a href="/Blog">Blog</a>
               </li>
               <li className=" hover:text-blue-600 hover:underline hover:-translate-y-1 transition ease-in-out delay-150 hover:scale-110 ">
                 <a href="javascript:void(0)">About US</a>
